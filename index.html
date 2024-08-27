@@ -23,10 +23,10 @@
     }
   </script>
 </head>
-<body class="font-sans hover:font-serif">
+<body class="font-sans hover:font-serif sm:w-full">
    <div class="font-sans hover:font-serif bg-slate-50 ">
 
-<header class="md:container md:mx-auto bg-slate-50  ">
+<header class="md:container md:mx-auto bg-slate-50 ">
 <nav class="bg-slate-50">
     <div class="navbar bg-slate-50">
         <div class="navbar-start">
@@ -75,7 +75,7 @@
           </ul>
         </div>
 
-        <div class="navbar-end">
+        <div class="navbar-end hidden md:block ">
 
            <button class="btn btn-success  
           font-bold text-center rounded-2xl 
@@ -382,10 +382,13 @@
 
 
   <!--   section end -->
-  <div  class="font-sans hover:font-serif bg-slate-50 ">
+  <div  class="font-sans hover:font-serif bg-white ">
     <div class="md:container md:mx-auto bg-slate-50">
       <div class="join join-vertical w-full my-8">
-        <p class="mx-8 mb-8  text-black">Some Question</p>
+
+       
+
+        <p class=" ml-2 pl-2 text-gray-700 text-xl font-medium pb-8">Frequent Ask Section :</p>
         <div class="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" checked="checked" />
           <div class="collapse-title text-xl font-medium">Can you tell us about barn house?</div>
@@ -517,7 +520,7 @@ rustic charm and modern.</p>
                 <p class="text-center  mb-8"> The barn house captivates with its blend of rustic charm and modern sophistication, <br>
                   featuring weathered wood, sleek metal accents.</p>
           </div>
-         <div class="flex justify-center items-center">
+         <div class="flex justify-center items-center ">
       
          <form class="w-full max-w-lg max-w-sm max-w-md  ">
       
@@ -543,7 +546,7 @@ rustic charm and modern.</p>
       
       
             
-            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
+            <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 my-8  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write your thoughts here..."></textarea>
             
             
       
@@ -579,16 +582,17 @@ rustic charm and modern.</p>
             <p class="text-center text-white mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, 
               featuring weathered wood, sleek metal accents.</p>
 
-              <div class="navbar-center   lg:flex justify-center text-slate-50 ">
-                <ul class="menu menu-horizontal px-1  text-slate-50">
-                  <li><a >Home</a></li>
-                  <li><a>Services</a></li>
-                 
-                  <li><a>Portfolio</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contact Us</a></li>
-                </ul>
+              <div class="flex flex-col md:flex-row gap-4 flex justify-center items-center text-slate-50 mb-8">
+                
+                <div>Home</div>
+                <div>Services</div>
+                <div>Portfolio</div>
+                <div>Blogs</div>
+                <div>Contact Us</div>
+                
               </div>
+
+              
              
                 <div class="card-actions justify-center ">
                     <button class="btn btn-success bg-[#84cc16] font-bold text-center rounded-2xl mb-8 ">Book Consult
